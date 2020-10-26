@@ -5,7 +5,7 @@ Durch die Veröffentlichung der Scriptable App, die es erlaubt, individuelle Wid
 <p align="center"><img src="/media/preview.jpg" width="30%"></center>
 
 ## Usage
-
+<br>
 1. App 'Scriptable' herunterladen
 <br>
 2. Neues Script hinzufügen
