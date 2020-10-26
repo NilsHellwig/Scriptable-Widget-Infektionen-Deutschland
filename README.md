@@ -10,21 +10,21 @@ Durch die Veröffentlichung der Scriptable App, die es erlaubt, individuelle Wid
 <br>
 2. Neues Script hinzufügen
 <br>
-<p align="center"><img src="/media/scriptable.jpg" width="30%"></center>
+<center><p align="center"><img src="/media/scriptable.jpg" width="30%"></center>
 <br>
 3. Quellcode aus script.js einfügen 
 <br>
-<p align="center"><img src="/media/script.jpg" width="30%"></center>
+<center><p align="center"><img src="/media/script.jpg" width="30%"></center>
 <br>
 4. Neues 2x2 Widget der App Scritable erstellen
 <br>
 5. Widget lange gedrückt halten, bis sich Menu öffnet
 <br>
-<p align="center"><img src="/media/widget.jpg" width="30%"></center>
+<center><p align="center"><img src="/media/widget.jpg" width="30%"></center>
 <br>
 6. Als Parameter einen Namen eines Bundeslandes übergeben und das Skript auswählen.
 <br>
-<p align="center"><img src="/media/widget_settings.jpg" width="30%"></center>
+<center><p align="center"><img src="/media/widget_settings.jpg" width="30%"></center>
 <br>
 
 ## Requirements
