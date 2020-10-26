@@ -1,6 +1,6 @@
 # Scriptable-Widget-Infektionen-DIVI-Deutschland
 
-Durch die Veröffentlichung der Scriptable App, die es erlaubt, individuelle Widgets in JavaScript zu schreiben, ist es nun möglich u.a. die Anzahl an intensivpflichtigen Patienten in Deutschland immer aktuell darzustellen. Für das Projekt wurde u.a. die API von [DIVI](https://www.divi.de/register/tagesreport "DIVI - Intensivregister") verwendet. Um die Anzahl an jemals infezierten Personen darzustellen wurde eine API vom [RKI](https://rki-covid-api.now.sh/ "RKI - aktuelle Fallzahlen") verwendet.
+Durch die Veröffentlichung der Scriptable-App, die es erlaubt, individuelle Widgets in JavaScript zu schreiben, ist es nun möglich u.a. die Anzahl an intensivpflichtigen Patienten in Deutschland immer aktuell darzustellen. Für das Projekt wurde u.a. die API von [DIVI](https://www.divi.de/register/tagesreport "DIVI - Intensivregister") verwendet. Um die Anzahl an jemals infezierten Personen darzustellen wurde eine API vom [RKI](https://rki-covid-api.now.sh/ "RKI - aktuelle Fallzahlen") verwendet.
 
 <p align="center"><img src="/media/preview.jpg" width="30%"></center>
 
