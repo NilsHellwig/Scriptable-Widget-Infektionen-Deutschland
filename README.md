@@ -4,7 +4,7 @@ Durch die Veröffentlichung der Scriptable App, die es erlaubt, individuelle Wid
 
 <p align="center"><img src="/media/preview.jpg" width="30%"></center>
 
-## Usage
+## Verwendung
 1. App 'Scriptable' herunterladen
 2. Neues Script hinzufügen
 <br>
@@ -25,8 +25,8 @@ Durch die Veröffentlichung der Scriptable App, die es erlaubt, individuelle Wid
 <center><p align="center"><img src="/media/widget_settings.jpg" width="30%"></center>
 <br>
 
-## Requirements
+## Anforderungen
 
-* A Device running at least iOS 14.0
+* Ein iOS-Gerät auf dem mindestens iOS 14 installiert ist.
 * WiFi
-* Enough space for the App 'Scriptable'
+* Genug Speicherplatz für die App 'Scriptable'
