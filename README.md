@@ -1,1 +1,1 @@
-# Scriptable-Widget-Infektionen-DIVI-Deutschland-
+# Scriptable-Widget-Infektionen-DIVI-Deutschland
