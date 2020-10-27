@@ -5,7 +5,7 @@ if (param != null && param.length > 0) {
 }
 
 const widget = new ListWidget()
-const numberICU = await fetchICU()
+const numberDeaths = await fetchDeaths()
 const totalCases = await fetchTotalCases()
 const casesForState = await fetchCasesForState(stateName)
 await createWidget()
@@ -46,27 +46,27 @@ async function createWidget() {
     let column = row.addStack()
     column.layoutVertically()
 
-    const numberOfICU = numberICU
+    const numberOfDeaths = numberDeaths
     column.addSpacer(5)
-    const numberOfICU_Label = column.addText(totalCases.toString())
-    numberOfICU_Label.font = Font.mediumRoundedSystemFont(18)
-    numberOfICU_Label.textColor = new Color("#90ee90")
+    const numberOfDeaths_Label = column.addText(totalCases.toString())
+    numberOfDeaths_Label.font = Font.mediumRoundedSystemFont(18)
+    numberOfDeaths_Label.textColor = new Color("#90ee90")
     intensiv_count = column.addStack()
-    changed_icu = intensiv_count.addText(numberOfICU.toString())
-    changed_icu.font = Font.mediumRoundedSystemFont(14)
-    changed_icu.textColor = new Color("#ff5555")
+    changed_deaths = intensiv_count.addText(numberOfDeaths.toString())
+    changed_deaths.font = Font.mediumRoundedSystemFont(14)
+    changed_deaths.textColor = new Color("#ff5555")
     bundesland_count  = widget.addStack()
     bundesland_count_text = bundesland_count.addText(casesForState)
     bundesland_count_text.font = Font.mediumRoundedSystemFont(14)
     bundesland_count_text.textColor = new Color("#ffffff")
 }
 
-async function fetchICU(){
+async function fetchDeaths(){
     let url
-    url = 'https://www.intensivregister.de/api/public/intensivregister'
+    url = 'https://api.apify.com/v2/key-value-stores/OHrZyNo9BzT6xKMRD/records/LATEST?disableRedirect=true'
     const req = new Request(url)
     const apiResult = await req.loadJSON()
-    return apiResult.rowCount
+    return apiResult.deceased
 }
 
 async function fetchCasesForState(stateName){
